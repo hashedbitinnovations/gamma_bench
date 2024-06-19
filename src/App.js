@@ -2,24 +2,24 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  let name = 'HashedBit Innovations';
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>Compnay Name - {name}</div>
+        <div>Number - {5+11}</div>
       </header>
     </div>
   );
 }
 
 export default App;
+
+
+// JSX - Inbuilt Templating mechanism of React
+
+// Templating - HTML with dynamic data
+
+// JSX - varibles and expressions, loop, conditionals
